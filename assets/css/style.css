@@ -22,20 +22,48 @@ img{
 :root{
     --bol-orange-color:var(#ff9614);
     --bol-bg-color:var(#f6f5f3);
-    --bol-violet-color:var(##7c69a4);
+    --bol-violet-color:var(#7c69a4);
+    --bol-lightgrey-color:var(#a0a09f);
 
 }
 
 /*#endregion COLORS */
 
 /*#region UTILITY */
+body{
+    font-family: "Montserrat", system-ui;
+}
+.d_flex{
+    display: flex;
+}
+.justify_center{
+    justify-content: center;
+}
 
+#font_nerko{
+    font-family: "Nerko One", system-ui;
+}
 
+.font_nerko{
+    font-size: 20px;
+}
 /*#endregion UTILIY */
 
 /*#region APP_HEADER */
+.container{
+    width: 90%;
+    padding:0.25 0rem;
+    margin: auto;
+}
 
+#app_header{
+    background-color: white;
 
+    #font_nerko{
+        color: #ff9614;
+        text-shadow: 1px 1px 2px gray;
+    }
+}
 /*#endregion APP_HEADER */
 
 /*#region APP_MAIN */
