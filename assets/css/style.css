@@ -161,8 +161,21 @@ body{
     /*#endregion APP_HEADER */  
   
     /*#region APP_MAIN */  
+    .row_md{
+        display: flex;
+    }
+
+    .col8_md{
+        width: calc((100% / 12) *8);
+    }
+    .col4_md{
+        width: calc((100% / 12) *4);
+    }
+
     /*#endregion APP_MAIN */  
   
+
+
     /*#region APP_FOOTER */  
     /*#endregion APP_FOOTER */  
   
