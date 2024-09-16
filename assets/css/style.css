@@ -24,6 +24,7 @@ img{
     --bol-bg-color:var(#f6f5f3);
     --bol-violet-color:var(#7c69a4);
     --bol-lightgrey-color:var(#a0a09f);
+    --bol-recipe_title-color:var(#4e3969);
 
 }
 
@@ -42,6 +43,15 @@ body{
 
 #font_nerko{
     font-family: "Nerko One", system-ui;
+}
+.category{
+    margin-top: 1rem;
+    font-weight: 0.25rem;
+    color: #a0a09f;
+}
+.title_recipe{
+    color: #4e3969;
+    padding-bottom: 1rem;
 }
 
 /*#endregion UTILIY */
@@ -65,10 +75,9 @@ body{
 
 /*#region APP_MAIN */
     #app_main{
-        background-color: var(--bol-bg-color);
+        background-color: #f6f5f3;
 
-
-
+       
 
 
     }
