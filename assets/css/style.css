@@ -158,11 +158,22 @@ body{
     /*#endregion UTILITY */  
   
     /*#region APP_HEADER */  
+    .container_md{
+        width: 100%;
+        padding: 1rem;
+    }
     /*#endregion APP_HEADER */  
   
     /*#region APP_MAIN */  
+    .details_md{
+        align-content: flex-start;
+    }
+    
+    
     .row_md{
         display: flex;
+        height: 20rem;
+
     }
 
     .col8_md{
