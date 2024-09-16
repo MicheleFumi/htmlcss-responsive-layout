@@ -86,6 +86,11 @@ body{
 
 .tiramisù{
     margin-top: 1rem;
+    padding: 0rem 4rem;
+}
+.description{
+    line-height: 2rem;
+    margin-top: 1rem;
 }
 
 /*#endregion UTILIY */
@@ -182,6 +187,18 @@ body{
     padding: 1rem 0rem;
     display: block;
  }
+ .tiramisù_sm{
+    float: left;
+    padding: 0;
+    width: 20rem;
+    margin: 0;
+    margin-bottom: 0.5rem;
+    margin-right: 0.5rem;
+    
+    }
+
+
+ 
   /*#endregion APP_MAIN */  
 
   /*#region APP_FOOTER */  
