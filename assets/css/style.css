@@ -54,12 +54,22 @@ body{
     padding-bottom: 1rem;
 }
 
+.icon{
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+}
+
+.row{
+    background-color: white;
+    box-shadow: 2px 2px 5px rgb(179, 178, 178);
+}
+
 /*#endregion UTILIY */
 
 /*#region APP_HEADER */
 .container{
     width: 90%;
-    padding:0.25 0rem;
+    padding:0.25rem 0rem;
     margin: auto;
 }
 
@@ -77,6 +87,11 @@ body{
     #app_main{
         background-color: #f6f5f3;
 
+        .details{
+            padding: 1rem 0rem;
+            padding-left: 1rem;
+            
+        }
        
 
 
