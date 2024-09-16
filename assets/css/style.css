@@ -92,6 +92,14 @@ body{
     line-height: 2rem;
     margin-top: 1rem;
 }
+#app_footer{
+       
+    background-color: #7c69a4;
+    color: white;
+    font-size: 0.5rem;
+
+}
+
 
 /*#endregion UTILIY */
 
@@ -263,7 +271,8 @@ body{
   
 
 
-    /*#region APP_FOOTER */  
+    /*#region APP_FOOTER */ 
+   
     /*#endregion APP_FOOTER */  
   
   
