@@ -44,9 +44,6 @@ body{
     font-family: "Nerko One", system-ui;
 }
 
-.font_nerko{
-    font-size: 20px;
-}
 /*#endregion UTILIY */
 
 /*#region APP_HEADER */
@@ -67,6 +64,15 @@ body{
 /*#endregion APP_HEADER */
 
 /*#region APP_MAIN */
+    #app_main{
+        background-color: var(--bol-bg-color);
+
+
+
+
+
+    }
+
 
 
 /*#endregion APP_MAIN */
@@ -74,4 +80,56 @@ body{
 /*#region APP_FOOTER */
 
 
+
 /*#endregion APP_FOOTER */
+
+
+
+@media screen and (min-width:768px) {
+  /*#region UTILITY */  
+  .flex_st_sm{
+    justify-content: flex-start;
+  }
+
+
+  /*#endregion UTILITY */  
+
+  /*#region APP_HEADER */  
+  .container_sm{
+    width: 100%;
+    padding: 0rem 0.5rem;
+  }
+
+  /*#endregion APP_HEADER */  
+
+  /*#region APP_MAIN */  
+
+  /*#endregion APP_MAIN */  
+
+  /*#region APP_FOOTER */  
+
+  /*#endregion APP_FOOTER */  
+
+
+
+
+}
+
+
+@media screen and (min-width:992px) {
+    /*#region UTILITY */  
+    /*#endregion UTILITY */  
+  
+    /*#region APP_HEADER */  
+    /*#endregion APP_HEADER */  
+  
+    /*#region APP_MAIN */  
+    /*#endregion APP_MAIN */  
+  
+    /*#region APP_FOOTER */  
+    /*#endregion APP_FOOTER */  
+  
+  
+  
+  
+  }
