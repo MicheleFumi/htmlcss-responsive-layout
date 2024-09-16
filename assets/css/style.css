@@ -96,10 +96,13 @@ body{
        
     background-color: #7c69a4;
     color: white;
-    font-size: 0.5rem;
+    font-size: 0.7rem;
+
 
 }
-
+.white{
+    color: white;
+}
 
 /*#endregion UTILIY */
 
@@ -148,9 +151,24 @@ body{
 /*#endregion APP_MAIN */
 
 /*#region APP_FOOTER */
+ 
+.footcontainer{
+    padding: 1rem;
+    line-height: 0.5rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    
+}
 
+.footer_tag{
 
-
+        gap: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+}
 /*#endregion APP_FOOTER */
 
 
@@ -211,6 +229,9 @@ body{
 
   /*#region APP_FOOTER */  
 
+  .footer_tag_sm{
+    padding-top: 0.5rem;
+  }
   /*#endregion APP_FOOTER */  
 
 
