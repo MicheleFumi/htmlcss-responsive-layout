@@ -66,6 +66,15 @@ body{
 .hidden{
     display: none;
 }
+.button {
+               
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 15px; 
+    box-shadow: 2px 2px 6px lightgrey;
+}
+
+
 /*#endregion UTILIY */
 
 /*#region APP_HEADER */
@@ -88,35 +97,27 @@ body{
 /*#region APP_MAIN */
     #app_main{
         background-color: #f6f5f3;
-
-        .card_title{
-            padding: 1rem 0rem 1rem ; 
-        }
-
-
-        .details{
-            padding: 1rem;
-            
-        }
-       
-        .socials{
-            padding: 1rem;
-            display: flex;
-            justify-content: space-between;
-        }
-        .button {
-               
-            background-color: white;
-            padding: 5px 10px;
-            margin: 5px 3px ; 
-            border-radius: 10px; 
-            box-shadow: 2px 2px 6px lightgrey;
-        }
+    }
         
-
+    .card_title{
+            padding: 1rem 0rem 1rem ; 
     }
 
 
+       
+    .socials{
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+    }
+       
+    
+
+
+    .details{
+        padding: 1rem;
+        
+    }
 
 /*#endregion APP_MAIN */
 
@@ -151,16 +152,23 @@ body{
     display: flex;
     flex-wrap: wrap; 
     justify-content: space-between;
-    padding: 2rem !important;
+    padding: 2rem;
     gap: 1rem;
-    
  }
- .button_sm{
-    padding: 10px 20px;
-    margin: 5px 3px ; 
+ .socials_sm{
+    padding: 2rem 0;
+ }
+ .button_sm {
+               
+    background-color: white;
+    padding: 10px 40px;
     border-radius: 20px; 
+    box-shadow: 2px 2px 6px lightgrey;
  }
-
+ .show_sm{
+    padding: 1rem 0rem;
+    display: block;
+ }
   /*#endregion APP_MAIN */  
 
   /*#region APP_FOOTER */  
@@ -186,9 +194,9 @@ body{
   
     /*#region APP_MAIN */  
     .details_md{
-        align-content: flex-start;
+        padding: 1rem;
     }
-    
+     
     
     .row_md{
         display: flex;
@@ -202,12 +210,22 @@ body{
     .col4_md{
         width: calc((100% / 12) *4);
     }
+    .socials_md{
+        padding: 2rem 0;
+    }
     .button_md{
+        
         vertical-align: middle;
+        background-color: white;
+        padding: 10px 20px;
+        border-radius: 20px; 
+        box-shadow: 2px 2px 6px lightgrey;
     }
     .button_text_md{
         color: black;
-        display: inline-block;
+        display: inline;
+        font-family: Arial, Helvetica, sans-serif;
+        vertical-align: middle;
 
     }
 
