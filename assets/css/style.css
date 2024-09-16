@@ -1,0 +1,49 @@
+
+/*#region COMMON */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+img{
+    max-width: 100%;
+}
+
+.debug *{
+    border: 1px dashed black
+}
+
+
+/*#endregion COMMON */
+
+/*#region COLORS */
+
+:root{
+    --bol-orange-color:var(#ff9614);
+    --bol-bg-color:var(#f6f5f3);
+    --bol-violet-color:var(##7c69a4);
+
+}
+
+/*#endregion COLORS */
+
+/*#region UTILITY */
+
+
+/*#endregion UTILIY */
+
+/*#region APP_HEADER */
+
+
+/*#endregion APP_HEADER */
+
+/*#region APP_MAIN */
+
+
+/*#endregion APP_MAIN */
+
+/*#region APP_FOOTER */
+
+
+/*#endregion APP_FOOTER */
