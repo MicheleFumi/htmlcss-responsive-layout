@@ -91,6 +91,7 @@ body{
 .description{
     line-height: 2rem;
     margin-top: 1rem;
+    padding-bottom: 2rem;
 }
 #app_footer{
        
