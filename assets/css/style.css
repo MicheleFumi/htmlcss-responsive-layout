@@ -63,7 +63,9 @@ body{
     background-color: white;
     box-shadow: 2px 2px 5px rgb(179, 178, 178);
 }
-
+.hidden{
+    display: none;
+}
 /*#endregion UTILIY */
 
 /*#region APP_HEADER */
@@ -199,6 +201,14 @@ body{
     }
     .col4_md{
         width: calc((100% / 12) *4);
+    }
+    .button_md{
+        vertical-align: middle;
+    }
+    .button_text_md{
+        color: black;
+        display: inline-block;
+
     }
 
     /*#endregion APP_MAIN */  
