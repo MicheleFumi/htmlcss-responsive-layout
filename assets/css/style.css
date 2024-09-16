@@ -87,9 +87,13 @@ body{
     #app_main{
         background-color: #f6f5f3;
 
+        .card_title{
+            padding: 1rem 0rem 1rem ; 
+        }
+
+
         .details{
-            padding: 1rem 0rem;
-            padding-left: 1rem;
+            padding: 1rem;
             
         }
        
@@ -119,14 +123,23 @@ body{
   /*#endregion UTILITY */  
 
   /*#region APP_HEADER */  
-  .container_sm{
-    width: 100%;
-    padding: 0rem 0.5rem;
-  }
 
   /*#endregion APP_HEADER */  
 
   /*#region APP_MAIN */  
+  .container_sm{
+    width: 90%;
+    padding: 0rem 0.5rem;
+    max-width: 1200px;
+  }
+  .details_sm{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    padding: 2rem !important;
+    gap: 1rem;
+    
+ }
 
   /*#endregion APP_MAIN */  
 
