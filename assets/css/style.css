@@ -105,8 +105,9 @@ body{
         .button {
                
             background-color: white;
-            border-radius: 43%;
-            padding: 0.45rem .65rem;
+            padding: 5px 10px;
+            margin: 5px 3px ; 
+            border-radius: 10px; 
             box-shadow: 2px 2px 6px lightgrey;
         }
         
@@ -151,6 +152,11 @@ body{
     padding: 2rem !important;
     gap: 1rem;
     
+ }
+ .button_sm{
+    padding: 10px 20px;
+    margin: 5px 3px ; 
+    border-radius: 20px; 
  }
 
   /*#endregion APP_MAIN */  
