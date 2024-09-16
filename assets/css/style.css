@@ -269,7 +269,8 @@ body{
   
     /*#region APP_MAIN */  
     .details_md{
-        padding: 1rem;
+        padding-right: 3rem;
+        flex-direction: column;
     }
      
     
